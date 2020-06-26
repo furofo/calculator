@@ -19,13 +19,39 @@ class Calculator extends React.Component{
 
     render() {
         return(
-        <div class = "positioning-container">
-        <div class = "calculator">
+        <div className= "positioning-container">
+        <div className = "calculator">
             <div id = "display">
-                <p class = "display-text"></p>
-                <p class = "display-text"></p>
+                <p className = "display-text"> This is Display Text</p>
             </div>
+            <div id = "display">
+                <p className = "display-text"> This is Display Text</p>
+            </div>
+            <div id = 'buttons'>
+                <button id = 'AC'>AC</button>
+                <button id = 'divide'>X</button>
+                <button id = 'multiply'>/</button>
+                
+                <button id = 'seven'>7</button>
+                <button id = 'eight'>7</button>
+                <button id = 'nine'>7</button>
+                <button id = 'subtract'>-</button>
 
+                <button id = 'four'>4</button>
+                <button id = 'five'>5</button>
+                <button id = 'six'>6</button>
+                <button id = 'add'>+</button>
+
+                <button id = 'one'>1</button>
+                <button id = 'two'>2</button>
+                <button id = 'three'>3</button>
+
+                <button id = "equals">=</button>
+
+                <button id = "zero">0</button>
+                <button id = 'period'>.</button>
+
+            </div>
         </div>
         </div>
         )
