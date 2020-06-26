@@ -27,29 +27,29 @@ class Calculator extends React.Component{
             <div id = "display">
                 <p className = "display-text"> This is Display Text</p>
             </div>
-            <div id = 'buttons'>
-                <button id = 'AC'>AC</button>
-                <button id = 'divide'>X</button>
-                <button id = 'multiply'>/</button>
+            <div id = 'buttons' class = 'grid-container'>
+                <a id = 'AC'>AC</a>
+                <a id = 'divide'>X</a>
+                <a id = 'multiply'>/</a>
                 
-                <button id = 'seven'>7</button>
-                <button id = 'eight'>7</button>
-                <button id = 'nine'>7</button>
-                <button id = 'subtract'>-</button>
+                <a id = 'seven'>7</a>
+                <a id = 'eight'>7</a>
+                <a id = 'nine'>7</a>
+                <a id = 'subtract'>-</a>
 
-                <button id = 'four'>4</button>
-                <button id = 'five'>5</button>
-                <button id = 'six'>6</button>
-                <button id = 'add'>+</button>
+                <a id = 'four'>4</a>
+                <a id = 'five'>5</a>
+                <a id = 'six'>6</a>
+                <a id = 'add'>+</a>
 
-                <button id = 'one'>1</button>
-                <button id = 'two'>2</button>
-                <button id = 'three'>3</button>
+                <a id = 'one'>1</a>
+                <a id = 'two'>2</a>
+                <a id = 'three'>3</a>
 
-                <button id = "equals">=</button>
+                <a id = "equals">=</a>
 
-                <button id = "zero">0</button>
-                <button id = 'period'>.</button>
+                <a id = "zero">0</a>
+                <a id = 'period'>.</a>
 
             </div>
         </div>
