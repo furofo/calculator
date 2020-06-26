@@ -19,12 +19,14 @@ class Calculator extends React.Component{
 
     render() {
         return(
+        <div class = "positioning-container">
         <div class = "calculator">
             <div id = "display">
                 <p class = "display-text"></p>
                 <p class = "display-text"></p>
             </div>
 
+        </div>
         </div>
         )
     }
