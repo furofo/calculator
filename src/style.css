@@ -16,7 +16,7 @@ body {
 .calculator {
     
     width: 30%;
-    height: 40%;
+    
     background-color: blue;
 }
 #display {
@@ -28,25 +28,30 @@ body {
 #buttons {
     margin-left: 5px;
     margin-right: 5px;
+    padding: 0px;
     display: grid;
     grid-gap: 0px;
-    padding: 0px;
+   
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto auto;
     
 }
 
 .grid-container {
-    padding: 0px !important;
+    
 }
 button {
     margin: 0px !important;
-    padding: 0px !important;
+    
     border: 0.5px solid black;
 }
 
 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 0.5px solid black;
+    padding: 15px;
 }
 
 #AC {
